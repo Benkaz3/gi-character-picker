@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>GI Character Picker</title>
+    <meta
+      name="description"
+      content="An app to pick your Genshin Impact character based on your interestes"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+	<div class="header-wrapper">
+		<div class="header-container">
+			<h1>Character Picker</h1>
+		</div>
+	</div>
+	<div class="filter">
+		<span class="label color2" data-element="Anemo">Anemo</span>
+		<span class="label color7" data-element="Cryo">Cryo</span>
+		<span class="label color5" data-element="Pyro">Pyro</span>
+		<span class="label color4" data-element="Electro">Electro</span>
+		<span class="label color6" data-element="Dendro">Dendro</span>
+		<span class="label color3" data-element="Geo">Geo</span>
+		<span class="label color1" data-element="Hydro">Hydro</span>
+		<div class="break"></div>
+		<span class="label color4" data-rarity="5">5 stars</span>
+		<span class="label color3" data-rarity="4">4 stars</span>
+	</div>
+
+<div id="character-list" class="character-list"></div>
+	</main>  
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
